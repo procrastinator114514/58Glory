@@ -216,7 +216,7 @@ void H_show(int num)
 {
 	TS_Hero *h=search_Hero(num);
 	if(h==NULL)		printf(" Error!\n The Hero DONOT exist!\n");
-	printf("©°----------------------©´\n");
+	printf("+----------------------+Â´\n");
 	printf("| Name  | %-12s |\n",h->data->name.c_str());
 	printf("| Hp    | %-12d |\n",h->data->hp);
 	printf("| G     | %-12d |\n",h->data->g);
@@ -224,7 +224,7 @@ void H_show(int num)
 	printf("| Sex   | %-12s |\n",h->data->sex ?"Male":"Female");
 	printf("| Class | %-12d |\n",h->person->c);
 	printf("| Person| %-12s |\n",h->person->is_teacher?"Teacher":"Student");
-	printf("©¸----------------------©¼\n");
+	printf("+----------------------+Â¼\n");
 	TS_Distroy_emptyHero(h);
 }
 int main()
