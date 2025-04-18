@@ -1,27 +1,27 @@
 /**
  *@file test1.cpp
  *@author zju1229
- *@brief ÒÔYRÎªÀı´¦ÀíÎä½« 
+ *@brief ä»¥YRä¸ºä¾‹å¤„ç†æ­¦å°† 
 **/
 #include<cstdio>
 #include<cstdlib>
 typedef struct Person{
-	int c;		///<	ËùÊô°à¼¶ 
-	bool is_teacher;	///<	ÊÇ·ñÎªÀÏÊ¦ 
+	int c;		///<	æ‰€å±ç­çº§ 
+	bool is_teacher;	///<	æ˜¯å¦ä¸ºè€å¸ˆ 
 };
 typedef struct Position{
-	int x,y;	///<	Îä½«×ø±ê 
+	int x,y;	///<	æ­¦å°†åæ ‡ 
 };
 typedef struct Hero{
-	int hp,g,math;		///<	ÉúÃü¡¢¼«Öµ¡¢ÊıÑ§ 
-	bool sex;	///<	ĞÔ±ğ 
-	Position* p;	///<	Îä½«×ø±ê 
-	Person* a;		///<	Îä½«Éí·İ 
+	int hp,g,math;		///<	ç”Ÿå‘½ã€æå€¼ã€æ•°å­¦ 
+	bool sex;	///<	æ€§åˆ« 
+	Position* p;	///<	æ­¦å°†åæ ‡ 
+	Person* a;		///<	æ­¦å°†èº«ä»½ 
 };
 /**
  *@name ray_f
- *@param[in] h1		Ò»¸öÎä½«Ö¸Õë
- *@brief ½«h1Îä½«Ö¸Õë¸³ÓèRayĞÅÏ¢ 
+ *@param[in] h1		ä¸€ä¸ªæ­¦å°†æŒ‡é’ˆ
+ *@brief å°†h1æ­¦å°†æŒ‡é’ˆèµ‹äºˆRayä¿¡æ¯ 
 **/ 
 void ray_f(Hero *h1)
 {
@@ -34,9 +34,9 @@ void ray_f(Hero *h1)
 }
 /**
  *@name move
- *@param[in] target		Ä¿±êÎ»ÖÃ
- *@param[in] h1		²Ù×÷Îä½«
- *@brief ¶ÔÎä½«½øĞĞ²Ù×÷ 
+ *@param[in] target		ç›®æ ‡ä½ç½®
+ *@param[in] h1		æ“ä½œæ­¦å°†
+ *@brief å¯¹æ­¦å°†è¿›è¡Œæ“ä½œ 
 **/ 
 void move(Position *target,Hero* h1)
 {
@@ -45,8 +45,8 @@ void move(Position *target,Hero* h1)
 } 
 /**
  *@name kill
- *@param[in] h1		Ò»¸öÎä½«Ö¸Õë
- *@brief Ïú»Ù¸ÃÎä½« 
+ *@param[in] h1		ä¸€ä¸ªæ­¦å°†æŒ‡é’ˆ
+ *@brief é”€æ¯è¯¥æ­¦å°† 
 **/
 void kill(Hero *h1)
 {
@@ -54,7 +54,7 @@ void kill(Hero *h1)
 	free(h1->a);
 	free(h1);
 } 
-//Ò»¸ö½Ó¿Ú 
+//ä¸€ä¸ªæ¥å£ 
 int main()
 {
 	Hero *ray=(Hero *)malloc(sizeof(Hero));
