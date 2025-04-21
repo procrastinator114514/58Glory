@@ -6,4 +6,4 @@
 + 绿色文字
 ```
 
-<span style="color: #FF0000;">红色文字</span>  
+$`\textcolor{red}{\text{your text}}`$ 
