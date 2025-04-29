@@ -65,4 +65,14 @@
 
 ## 3 后记
 > [!tip]
-> 第三部分与游玩无关，只想了解游戏规则的读者你们辛苦了，我们后会有期~
+> 第三部分与游玩无关，只想了解游戏规则的读者你们辛苦了，我们后会有期~  
+### 3.1 开发者感言
+
+### 3.2 特别鸣谢
+> [!IMPORTANT]  
+> + 开发者 [**BukSeong**](https://github.com/BukSeong)
+> + 游戏探索者 小游戏之王 5班小游戏群体
+> + 其他贡献者与所有行走在暗夜中的人
+
+> [!tip]
+> author zju1229 [![Static Badge](https://img.shields.io/badge/%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5-zju1229-cc99ff)](https://github.com/zju1229)
